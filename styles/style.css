@@ -154,6 +154,7 @@
 }
 
 /* Digits table */
+
 .table {
   width: 1100px;
   margin: auto;
@@ -226,6 +227,7 @@
 }
 
 /* Kaufman */
+
 .kaufman {
   background-color: #1f1f1f;
   padding: 90px 0;
@@ -241,7 +243,6 @@
   font-size: 60px;
   font-weight: 700;
   line-height: 1.15;
-  margin: 0;
   text-align: center;
 }
 
