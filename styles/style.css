@@ -167,6 +167,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0;
+  list-style-type: none;
 }
 
 .table__cell {
@@ -180,14 +181,19 @@
   font-weight: 600;
   line-height: 1.15;
   padding: 0;
+  margin: 0;
 }
 
 .table__text {
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
   padding: 0;
+}
+
+.table__text:last-of-type {
+  margin-bottom: 0px;
 }
 
 /* Feynman */
@@ -249,19 +255,8 @@
   z-index: 0;
 }
 
-/* Kaufman table */
-.table_theme_dark {
-  list-style-type: none;
-  padding: 0;
-}
-
 .section-title_theme_dark {
   color: #fff;
-  margin: 0;
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 1.15;
-  text-align: center;
   z-index: 5;
 }
 
@@ -275,21 +270,30 @@
   z-index: 4;
 }
 
+/* Kaufman table */
+
+.table_theme_dark {
+}
+
+/* Судя по всему этот стиль должен быть пустым */
+
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
+  color: #fff;
   margin-right: 0;
   margin-top: 80px;
   z-index: 3;
 }
 
 .table__heading_theme_dark {
+  color: #fff;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.15;
 }
 .table__text_theme_dark {
-  margin-top: 20px;
+  color: #fff;
+  margin: 20px 0 0 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -319,7 +323,8 @@
   margin: 0;
   display: flex;
   flex-direction: row;
-  box-sizing: content-box;
+  box-sizing: border-box;
+  /* поменял на border-box */
   width: 100%;
 }
 
@@ -331,6 +336,11 @@
   justify-content: space-between;
 }
 
+.footer__column {
+  margin: 0;
+  padding: 0;
+}
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
@@ -338,8 +348,9 @@
   justify-content: space-between;
 }
 
-.logo__place_footer {
-  width: 183px;
+.logo_place_footer {
+  margin: 0;
+  padding: 0;
   height: 35px;
 }
 
