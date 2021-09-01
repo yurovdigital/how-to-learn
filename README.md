@@ -1,15 +1,19 @@
-# Научиться учиться
+### Проектная работа №1. Яндекс.Практикум
+---
+
+#### Стек:
+
+![HTML5](https://img.shields.io/badge/-HTML5-141130?style=flat-square&logo=HTML5&logoColor=FF0000)
+![CSS3](https://img.shields.io/badge/-CSS3-141130?style=flat-square&logo=CSS3&logoColor=009900)
 
 ---
 
-Проектная работа №2 в Яндекс.Практикум.
+#### Файловая структура:
 
-## В проекте используются следущие элементы HTML и CSS:
+Файловая структура построена по технологии БЭМ Nested
 
-1. flexbox
-2. animation
-3. iframe
+---
 
-## Файловая структура CSS
+#### Ссылки на проект
 
-Файлы стилей структурированы по методологии БЭМ Nested
+[vercel.com](https://how-to-learn-yd.vercel.app/)
